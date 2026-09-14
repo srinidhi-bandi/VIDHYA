@@ -1,0 +1,5 @@
+New Information
+Second line
+
+new line added using append modenew line added using append mode
+another line added

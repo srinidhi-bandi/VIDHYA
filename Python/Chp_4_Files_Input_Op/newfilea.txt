@@ -1,0 +1,3 @@
+new line added using append mode
+another line added
+New Contents
