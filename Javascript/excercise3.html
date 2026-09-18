@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Typing Preview</title>
+</head>
+
+<body>
+
+<h1>Live Typing Preview</h1>
+
+<input type="text" id="inputBox" onkeyup="showText()" placeholder="Type here">
+
+<p id="output"></p>
+
+<script>
+
+function showText() {
+    let text = document.getElementById("inputBox").value;
+    document.getElementById("output").innerText = "You typed: " + text;
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Counter</title>
+</head>
+
+<body>
+
+<h1>Simple Counter</h1>
+
+<h2 id="count">0</h2>
+
+<button onclick="increase()">Increase</button>
+
+<script>
+
+let counter = 0;
+
+function increase() {
+    counter++;
+    document.getElementById("count").innerText = counter;
+}
+
+</script>
+
+</body>
+</html>

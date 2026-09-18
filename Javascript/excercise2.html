@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Hover Event</title>
+</head>
+
+<body>
+
+<h1>Mouse Hover Color Change</h1>
+
+<p id="text"
+   onmouseover="changeColor()"
+   onmouseout="normalColor()">
+   Hover over me
+</p>
+
+<script>
+
+function changeColor() {
+    document.getElementById("text").style.color = "green";
+}
+
+function normalColor() {
+    document.getElementById("text").style.color = "black";
+}
+
+</script>
+
+</body>
+</html>

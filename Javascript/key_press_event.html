@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" onkeyup="showText()" id="inputBox">
+
+<p id="output"></p>
+
+<script>
+function showText() {
+    let text = document.getElementById("inputBox").value;
+    document.getElementById("output").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

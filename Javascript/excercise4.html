@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modern Event Handling</title>
+</head>
+
+<body>
+
+<h1>Modern Event Handling</h1>
+
+<button id="btn">Click Me</button>
+
+<p id="result"></p>
+
+<script>
+
+document.getElementById("btn").addEventListener("click", function() {
+    document.getElementById("result").innerText =
+        "Event handled using addEventListener!";
+});
+
+</script>
+
+</body>
+</html>
